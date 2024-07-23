@@ -4,8 +4,6 @@
 // and your action
 //action(increment,decrement-(action-type))
 
-
-
 export const myReducer = (state = { count: 0 }, action) => {
     
   switch (action.type) {
@@ -21,7 +19,6 @@ export const myReducer = (state = { count: 0 }, action) => {
       default:
           break;
   }
-
 }
 
   //if some new variable assigning to a variable then it called mutable
